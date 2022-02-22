@@ -1,0 +1,59 @@
+(function () {
+"use strict";
+
+  console.log("JavaScript is running");
+
+  var landmarks = [];
+  var landmarksList = document.getElementById("landmarks");
+  var wayHome = document.getElementById("way_home");
+  var inputLandmark = document.getElementById("input_landmark");
+  var btnPop = document.getElementById("btn_pop");
+  var formAddLandmark = document.getElementById("form_add_landmark");
+
+  var addNewValToList = function (val) {
+    if (val !== "") {
+      return landmarks.push(val);
+    }
+    return;
+  };
+
+  var onClickSubmit = function (e) {
+    e.preventDefault();
+    console.log("Form add landmark submitted!");
+
+    var newLandmark = inputLandmark.value;
+    console.log("input value: ", newLandmark)
+
+    addNewValToList(newLandmark);
+    console.log("Landmarks: ", landmarks);
+
+    if (landmarks.length === 1) {
+      landmarksList.innerHTML += "<button onClick=\"onClickPop\" id=\"btn_pop\">Pop</button><p>" + newLandmark + "</p>";
+    } else {
+      landmarksList.innerHTML += "<p>" + newLandmark + "</p>";
+    }
+  };
+
+  var onClickPop = function () {
+    var newLandmark = inputLandmark.value;
+    console.log("input value: ", newLandmark)
+
+    addNewValToList(newLandmark);
+    console.log("Landmarks: ", landmarks);
+
+    var lastItem = landmarks.pop();
+    console.log("Last item: ", lastItem);
+
+    wayHome.innerHTML += "<p>" + lastItem + "</p>";
+
+    landmarksList.removeChild(landmarksList.lastElementChild);
+  };
+
+  if (document)
+
+  formAddLandmark.addEventListener("submit", onClickSubmit);
+
+  if (btnPop) {
+    btnPop.addEventListener("click", onClickPop);
+  }
+})();
