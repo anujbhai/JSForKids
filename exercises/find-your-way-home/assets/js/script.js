@@ -27,33 +27,21 @@
     addNewValToList(newLandmark);
     console.log("Landmarks: ", landmarks);
 
-    if (landmarks.length === 1) {
-      landmarksList.innerHTML += "<button onClick=\"onClickPop\" id=\"btn_pop\">Pop</button><p>" + newLandmark + "</p>";
-    } else {
-      landmarksList.innerHTML += "<p>" + newLandmark + "</p>";
-    }
+    landmarksList.innerHTML += "<p>" + newLandmark + "</p>";
   };
 
   var onClickPop = function () {
-    var newLandmark = inputLandmark.value;
-    console.log("input value: ", newLandmark)
-
-    addNewValToList(newLandmark);
-    console.log("Landmarks: ", landmarks);
+    console.log("input value: ", landmarks)
 
     var lastItem = landmarks.pop();
     console.log("Last item: ", lastItem);
+    console.log("input value: ", landmarks)
 
     wayHome.innerHTML += "<p>" + lastItem + "</p>";
 
     landmarksList.removeChild(landmarksList.lastElementChild);
   };
 
-  if (document)
-
   formAddLandmark.addEventListener("submit", onClickSubmit);
-
-  if (btnPop) {
-    btnPop.addEventListener("click", onClickPop);
-  }
+  btnPop.addEventListener("click", onClickPop);
 })();
