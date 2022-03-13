@@ -1,6 +1,8 @@
 (function () {
 "use strict";
 
+var btnStartGame = document.getElementById("btn_start_game");
+console.log("Button start: ", btnStartGame);
 var words = [
 	"javascript",
 	"monkey",
@@ -44,6 +46,13 @@ var runGame = function () {
 	alert(answerArr.join(" "));
 	alert("Good job! The answer is: " + word);
 }
-runGame();
+document.addEventListener("click", function (e) {
+	if (!e.target.matches("#btn_start_game")) {
+		return;
+	}
+
+	e.preventDefault();
+	runGame();
+});
 
 })();
