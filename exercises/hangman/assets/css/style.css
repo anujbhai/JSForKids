@@ -37,9 +37,27 @@ button:target { border-color: rgb(255, 0, 223); outline-color: rgb(255, 0, 223);
 /**************
  * Typography *
  **************/
- p {
- 	margin: 15px 0;
- }
+p {
+	margin: 15px 0;
+}
+
+/*********
+ * Forms *
+ *********/
+.form_control {
+	margin: 0 5px;
+}
+.form_control > input[type=text] {
+	border-top: 1px solid rgba(0, 0, 0, 0);
+	border-right: 1px solid rgba(0, 0, 0, 0);
+	border-left: 1px solid rgba(0, 0, 0, 0);
+	border-bottom: 2px solid #8A8A8A;
+	background-color: rgba(0, 0, 0, 0);
+	display: inline;
+	max-width: 10px;
+	padding: 15px;
+	text-transform: uppercase;
+}
 
 /***********
  * Layouts *
@@ -77,5 +95,15 @@ button:target { border-color: rgb(255, 0, 223); outline-color: rgb(255, 0, 223);
 /*************************
  * Individual page style *
  *************************/
+.game_screen {
+	padding: 30px;
+	margin-top: 30px;
+	width: 100%;
+	background-color: #F0F0F0;
+	border: 1px solid #DDDDDD;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
 
 

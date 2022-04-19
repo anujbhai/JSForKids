@@ -1,6 +1,8 @@
 (function () {
 "use strict";
 
+var gameScreen = document.querySelector(".game_screen");
+console.log(gameScreen);
 var btnStartGame = document.getElementById("btn_start_game");
 console.log("Button start: ", btnStartGame);
 var words = [
@@ -13,7 +15,7 @@ var word = words[Math.floor(Math.random() * words.length)];
 var answerArr = [];
 
 for (var i = 0; i < word.length; i++) {
-	answerArr[i] = "_";
+	answerArr[i] = "<div class=\"form_control\"><input disabled type=\"text\" value=\"\" /></div>";
 }
 
 var remainingLetters = word.length;
@@ -22,7 +24,9 @@ var runGame = function () {
 	// Game logic
 	while (remainingLetters > 0) {
 		// Player progress display
-		alert(answerArr.join(" "));
+		// alert(answerArr.join(" "));
+		gameScreen.innerHTML = answerArr.join("");
+
 
 		// Input from player
 		var guess = prompt("Guess a letter, or click Cancel to stop playing.");
