@@ -4,6 +4,38 @@
 		"selected_items":
 		[
 			[
+				"upda",
+				"updateGameState"
+			],
+			[
+				"answer",
+				"answerArray"
+			],
+			[
+				"start",
+				"startGame"
+			],
+			[
+				"wo",
+				"word\tlocal var"
+			],
+			[
+				"pro",
+				"prompt\t( message?: DOMString, default?: DOMString ): DOMString Window"
+			],
+			[
+				"remaining",
+				"remainingLetters\tlocal var"
+			],
+			[
+				"ans",
+				"answerArray\tlocal var"
+			],
+			[
+				"e",
+				"every\tmethod"
+			],
+			[
 				"s",
 				"splice\tmethod"
 			],
@@ -164,10 +196,6 @@
 				"flex-direction\tproperty"
 			],
 			[
-				"ans",
-				"answerArr"
-			],
-			[
 				"remai",
 				"remainingLetters"
 			],
@@ -214,10 +242,6 @@
 			[
 				"inter",
 				"intervalInfo\tlet"
-			],
-			[
-				"start",
-				"startCount\tfunction"
 			],
 			[
 				"old",
@@ -490,49 +514,25 @@
 			[
 				"arr",
 				"arrNames"
-			],
-			[
-				"rev",
-				"revArr"
-			],
-			[
-				"sort",
-				"sortArr"
-			],
-			[
-				"some",
-				"someUsers"
-			],
-			[
-				"index",
-				"indexOf"
-			],
-			[
-				"for",
-				"forEach"
-			],
-			[
-				"cate",
-				"categories"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "/home/rsi/local_repos/practice/js/jsfk/exercises/insult-generator/index.html",
+			"file": "assets/js/index.js",
 			"settings":
 			{
-				"buffer_size": 303,
+				"buffer_size": 1991,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/home/rsi/local_repos/practice/js/jsfk/exercises/insult-generator/script.js",
+			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 782,
+				"buffer_size": 990,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -643,16 +643,24 @@
 	"expanded_folders":
 	[
 		"/home/rsi/local_repos/practice/js/jsfk/exercises",
+		"/home/rsi/local_repos/practice/js/jsfk/exercises/find-same-array",
+		"/home/rsi/local_repos/practice/js/jsfk/exercises/hangman",
+		"/home/rsi/local_repos/practice/js/jsfk/exercises/hangman/assets",
+		"/home/rsi/local_repos/practice/js/jsfk/exercises/hangman/assets/js",
 		"/home/rsi/local_repos/practice/js/jsfk/exercises/insult-generator"
 	],
 	"file_history":
 	[
+		"/home/rsi/local_repos/practice/js/jsfk/exercises/hangman/prompt.html",
+		"/home/rsi/local_repos/practice/js/jsfk/exercises/find-same-array/index.html",
+		"/home/rsi/local_repos/practice/js/jsfk/exercises/find-same-array/script.js",
+		"/home/rsi/local_repos/practice/js/jsfk/exercises/insult-generator/index.html",
+		"/home/rsi/local_repos/practice/js/jsfk/exercises/insult-generator/script.js",
 		"/home/rsi/local_repos/practice/js/demo/hangman/script.js",
 		"/home/rsi/local_repos/practice/js/demo/hangman/index.html",
 		"/home/rsi/local_repos/practice/js/demo/hangman/style.css",
 		"/home/rsi/local_repos/practice/js/jsfk/exercises/hangman/assets/css/style.css",
 		"/home/rsi/local_repos/practice/js/jsfk/exercises/hangman/assets/js/index.js",
-		"/home/rsi/local_repos/practice/js/jsfk/exercises/hangman/prompt.html",
 		"/home/rsi/local_repos/practice/js/jsfk/exercises/hangman/index.html",
 		"/home/rsi/local_repos/practice/js/jsfk/exercises/hangman/assets/css/stylse.css",
 		"/home/rsi/local_repos/practice/js/animation/p5/working-with-data/p5_03_API_in_JS/assets/js/script.js",
@@ -770,11 +778,7 @@
 		"/home/rsi/local_repos/practice/misc/ni/src/styles/main_styles.css",
 		"/home/rsi/local_repos/practice/misc/ni/src/styles/main_styles.scss",
 		"/home/rsi/local_repos/practice/misc/ni/src/styles/fonts.css",
-		"/home/rsi/local_repos/practice/misc/ni/.gitignore",
-		"/home/rsi/local_repos/practice/misc/ni/src/styles/reset.css",
-		"/home/rsi/local_repos/practice/misc/ni/package.json",
-		"/home/rsi/local_repos/practice/js/ds_and_algo/jsdsalgo/ch001_big_O_notation/index.html",
-		"/home/rsi/local_repos/practice/js/ds_and_algo/jsdsalgo/ch001_big_O_notation/example_(O)1.js"
+		"/home/rsi/local_repos/practice/misc/ni/.gitignore"
 	],
 	"find":
 	{
@@ -792,6 +796,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"[1, 2, 3], [4, 5, 6]",
 			" />",
 			"1px solid #DDD",
 			"96, 255, 0",
@@ -819,19 +824,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/home/rsi/local_repos/practice/js/jsfk/exercises/insult-generator/index.html",
+					"file": "assets/js/index.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 303,
+						"buffer_size": 1991,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								217,
-								217
+								572,
+								572
 							]
 						],
 						"settings":
@@ -843,125 +848,8 @@
 								{
 									"1":
 									[
-										219,
-										225
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/tag.png",
-										"region.orangish"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										186,
-										192
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content"
-							],
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/home/rsi/local_repos/practice/js/jsfk/exercises/insult-generator/script.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 782,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								774,
-								774
-							]
-						],
-						"settings":
-						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										776,
-										777
+										600,
+										601
 									]
 								},
 								"icon":
@@ -976,8 +864,8 @@
 								{
 									"1":
 									[
-										13,
-										14
+										534,
+										535
 									]
 								},
 								"unmatched":
@@ -986,11 +874,41 @@
 							},
 							"bracket_highlighter.regions":
 							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
@@ -1001,48 +919,19 @@
 								"bh_curly_open",
 								"bh_curly_close",
 								"bh_curly_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content"
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
 							],
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false,
 							"typescript_plugin_format_options":
 							{
 								"convertTabsToSpaces": false,
@@ -1050,6 +939,124 @@
 								"tabSize": 2
 							},
 							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 138.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 990,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								831,
+								831
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										827,
+										830
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/tag.png",
+										"region.orangish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										464,
+										467
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
