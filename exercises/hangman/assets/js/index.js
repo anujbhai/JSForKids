@@ -9,78 +9,64 @@ startButton.addEventListener("click", function (e) {
 });
 
 function startGame() {
+var pickWord = function () {
+      var words = [
+        "javascript",
+        "monkey",
+        "amazing",
+        "pancake"
+      ];
 
-	// Create an array of words
-	var words = [
-		"javascript",
-		"monkey",
-		"amazing",
-		"pancake"
-	];
+      return words[Math.floor(Math.random() * words.length)];
+    };
 
-	// Pick a random word
-	var pickWord = function() {
-		return words[Math.floor(Math.random() * words.length)];
-	};
+    var setupAnswerArray = function (word) {
+      var answerArray = [];
+      for (var i = 0; i < word.length; i++) {
+        answerArray[i] = "_";
+      }
 
-	// Setup the answer array
-	var setupAnswerArray = function(word) {
-		for (var i = 0; i < word.length; i++) {
-			// @TODO answerArray is undefined
-			answerArray[i] = "_";
-		}
-	};
+      return answerArray;
+    };
 
-	// Show player's progress
-	var showPlayerProgress = function(anwerArray) {
-		alert(answerArray.join(" "));
-	};
+    var showPlayerProgress = function (answerArray) {
+      alert(answerArray.join(" "));
+    };
 
-	// Player's guess
-	var getGuess = function() {
-		prompt("Guess a letter, or click cancel to stop playing.");
-	}
+    var getGuess = function () {
+      return prompt("Guess a letter, or click Cancel to stop playing.");
+    };
 
-	// Update game state with the guess
-	var updateGameState = function(guess, word, answerArray) {
-		// Update answerArray and return a number showing how many
-		// times the guess appears in the word so remainingLetters
-		// can be updated
-		for (var j = 0; j < word.length; j++) {
-			if (word[j] === guess) {
-				answerArray[j] = guess;
-				remainingLetters--;
-			}
-		}
-	};
+    var updateGameState = function (guess, word, answerArray) {
+      var appearances = 0;
+      for (var j = 0; j < word.length; j++) {
+        if (word[j] === guess) {
+          answerArray[j] = guess;
+          appearances++;
+        }
+      }
 
-	// Show the answer and congratulate the player
-	var showAnswerAndCongratulatePlayer = function (answerArray) {
-		// Use alert to show the answer and congratulate the player
-		alert(answerArray.join(" "));
-		alert("Good job! The answer is " + word);
-	};
+      return appearances;
+    };
 
-	var word = pickWord();
-	var answerArray = setupAnswerArray(word);
-	var remainingLetters = word.length;
+    var showAnswerAndCongratulatePlayer = function (answerArray) {
+      showPlayerProgress(answerArray);
+      alert("Good job! The answer was " + answerArray.join(""));
+    };
 
-	// The game loop
-	while (remainingLetters > 0) {
-		showPlayerProgress(answerArray);
+    var word = pickWord();
+    var answerArray = setupAnswerArray(word);
+    var remainingLetters = word.length;
 
-		var guess = getGuess()
-
-		if (guess === null) {
-			// Exit game loop
-			break;
-		} else if (guess.length !== 1) {
-			alert("Please enter a single letter.");
-		} else {
-			var correctGuesses = updateGameState(guess, word, answerArray);
-			remainingLetters = correctGuesses;
-		}
-	}
-	showAnswerAndCongratulatePlayer(answerArray);
-}
+    while (remainingLetters > 0) { showPlayerProgress(answerArray); var guess = getGuess();
+      if (guess === null) {
+        break;
+      } else if (guess.length !== 1) {
+        alert("Please enter a single letter.");
+      } else {
+        var correctGuesses = updateGameState(guess, word, answerArray);
+        remainingLetters -= correctGuesses;
+      }
+    }
+ 	}
 })();
