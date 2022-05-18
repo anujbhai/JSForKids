@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>DOM</title>
+
+	<style>
+		#main-heading,
+		#main-text {
+			display: none;
+		}
+	</style>
+</head>
+<body>
+	<h1 id="main-heading">Hello World!</h1>
+
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<script>
+		(function() {
+			"use strict";
+
+			$(document).ready(function() {
+				$("body").append("<p id=\"main-text\">This is the new paragraph.</p>");
+
+				// $("#main-heading")
+				// 	.fadeIn(2000)
+				// 	.fadeOut(300)
+				// 	.fadeIn(2000)
+				// 	.delay(3000)
+				// 	.fadeTo(2000, 0.25);
+
+				$("#main-text")
+					.delay(4300)
+					.slideDown(1000)
+					.slideUp(1000)
+					.slideDown(1000);
+
+				/* Flashing via loop */
+				for (var i = 0; i < 5; i++) {
+					var header = $("#main-heading");
+					header
+						.fadeIn(i * 1000)
+						.fadeOut(i * 1000);
+				}
+			});
+		})();
+	</script>
+</body>
+</html>
