@@ -4,6 +4,19 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Interactive Programming</title>
+
+	<style>
+		body {
+			position: relative;
+		}
+		span {
+			position: absolute;
+			padding: 5px 12px;
+			background: rgb(118, 215, 196);
+			border-radius: 3px;
+		}
+	</style>	
+
 </head>
 <body>
 	<p id="heading">Hello, World!</p>
@@ -14,13 +27,15 @@
 		"use strict";
 
 			$(document).ready(function() {
+				var populateCoordInfo = function (x, y) {
+					return "<span>" + x + " " + y + "</span>";
+				};
+
 				$("html").on("click", function(e) {
-					$("body")
-						.append("<span>" + e.pageX + " " + e.pageY + "</span>")
-						.offset({
-							left: e.pageX,
-							top: e.pageY
-						});
+					var el = populateCoordInfo(e.pageX, e.pageY);
+					
+
+					$("body").append($(el).offset({left: e.pageX, top: e.pageY}));
 				});
 			});
 		})();
