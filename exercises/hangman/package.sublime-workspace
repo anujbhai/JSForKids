@@ -4,6 +4,46 @@
 		"selected_items":
 		[
 			[
+				"y",
+				"ySpeed\tproperty"
+			],
+			[
+				"x",
+				"xSpeed\tproperty"
+			],
+			[
+				"coord",
+				"coordinate\tparameter"
+			],
+			[
+				"coo",
+				"coordinate\tparameter"
+			],
+			[
+				"ize",
+				"size\t: unsigned long long Blob"
+			],
+			[
+				"fill",
+				"fillStyle\twarning"
+			],
+			[
+				"p",
+				"PI\tproperty"
+			],
+			[
+				"stroke",
+				"strokeStyle"
+			],
+			[
+				"line",
+				"lineWidth"
+			],
+			[
+				"background",
+				"background-color\tproperty"
+			],
+			[
 				"move",
 				"moveDown\tmethod"
 			],
@@ -304,10 +344,6 @@
 				"history"
 			],
 			[
-				"y",
-				"yspeed"
-			],
-			[
 				"timer",
 				"timer1"
 			],
@@ -404,16 +440,8 @@
 				"background\t Style CSS"
 			],
 			[
-				"x",
-				"xSpeed"
-			],
-			[
 				"square",
 				"squareSize"
-			],
-			[
-				"line",
-				"lineWidth"
 			],
 			[
 				"reset",
@@ -452,10 +480,6 @@
 				"endDelay"
 			],
 			[
-				"background",
-				"background-color\tproperty"
-			],
-			[
 				"prev",
 				"preventDefault\t(): void Event"
 			],
@@ -490,35 +514,29 @@
 			[
 				"flex",
 				"flex-grow\tproperty"
-			],
-			[
-				"fle",
-				"flex-grow\tproperty"
-			],
-			[
-				"align",
-				"align-self\tproperty"
-			],
-			[
-				"bor",
-				"border-radius\tproperty"
-			],
-			[
-				"te",
-				"text-align\tproperty"
-			],
-			[
-				"mw",
-				"min-width\tproperty"
-			],
-			[
-				"margin",
-				"margin-bottom\tproperty"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "/home/rsi/local_repos/practice/js/jsfk/exercises/canvas/BouncingBall/index.html",
+			"settings":
+			{
+				"buffer_size": 290,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/rsi/local_repos/practice/js/jsfk/exercises/canvas/beeAnimationScript.js",
+			"settings":
+			{
+				"buffer_size": 1075,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -625,18 +643,24 @@
 	"expanded_folders":
 	[
 		"/home/rsi/local_repos/practice/js/jsfk/exercises",
-		"/home/rsi/local_repos/practice/js/jsfk/exercises/find-the-buried-treasure",
-		"/home/rsi/local_repos/practice/js/jsfk/exercises/find-the-buried-treasure/images",
-		"/home/rsi/local_repos/practice/js/jsfk/exercises/OOP"
+		"/home/rsi/local_repos/practice/js/jsfk/exercises/canvas",
+		"/home/rsi/local_repos/practice/js/jsfk/exercises/canvas/BouncingBall"
 	],
 	"file_history":
 	[
+		"/home/rsi/local_repos/practice/js/jsfk/exercises/canvas/BouncingBall/script.js",
+		"/home/rsi/local_repos/practice/js/jsfk/exercises/canvas/script.js",
+		"/home/rsi/local_repos/practice/js/jsfk/exercises/canvas/animationScript1.js",
+		"/home/rsi/local_repos/practice/js/jsfk/exercises/canvas/beeanimation.html",
+		"/home/rsi/local_repos/practice/js/jsfk/exercises/canvas/beeAnimationScript.js",
+		"/home/rsi/local_repos/practice/js/jsfk/exercises/canvas/index.html",
+		"/home/rsi/local_repos/practice/js/jsfk/exercises/canvas/canvasanimation.html",
+		"/home/rsi/local_repos/practice/js/jsfk/exercises/hangman/assets/js/index.js",
 		"/home/rsi/local_repos/practice/js/jsfk/exercises/OOP/index.html",
 		"/home/rsi/local_repos/practice/js/jsfk/exercises/OOP/script.js",
 		"/home/rsi/local_repos/practice/js/jsfk/exercises/find-the-buried-treasure/script.js",
 		"/home/rsi/local_repos/practice/js/jsfk/exercises/find-the-buried-treasure/index.html",
 		"/home/rsi/local_repos/practice/js/jsfk/exercises/InteractiveProg/index.html",
-		"/home/rsi/local_repos/practice/js/jsfk/exercises/hangman/assets/js/index.js",
 		"/home/rsi/local_repos/practice/js/jsfk/exercises/DOM/index.html",
 		"/home/rsi/local_repos/practice/js/jsfk/exercises/hangman/index.html",
 		"/home/rsi/local_repos/practice/js/jsfk/exercises/hangman/prompt.html",
@@ -751,18 +775,11 @@
 		"/home/rsi/local_repos/practice/js/animation/anime/assets/js/lib/anime.min.js",
 		"/home/rsi/local_repos/practice/js/animation/anime/index.js",
 		"/home/rsi/local_repos/practice/misc/ni/index.html",
-		"/home/rsi/local_repos/practice/react/sportsstore2b/src/ToggleLink.js",
-		"/home/rsi/local_repos/practice/react/sportsstore2b/src/serviceWorker.js",
-		"/home/rsi/local_repos/practice/react/sportsstore2b/src/App.js",
-		"/home/rsi/local_repos/practice/react/sportsstore2b/data.js",
-		"/home/rsi/local_repos/practice/js/ds_and_algo/jsdsalgo/ch001_big_O_notation/example_(O2)n.js",
-		"/home/rsi/local_repos/practice/js/ds_and_algo/jsdsalgo/ch001_big_O_notation/example_O(n).js",
-		"/var/www/html/hello-world/index.html",
-		"/var/www/html/info.php"
+		"/home/rsi/local_repos/practice/react/sportsstore2b/src/ToggleLink.js"
 	],
 	"find":
 	{
-		"height": 32.0
+		"height": 30.0
 	},
 	"find_in_files":
 	{
@@ -776,6 +793,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"x",
+			"100",
+			"90",
+			");",
+			"strokeStyle",
 			"[1, 2, 3], [4, 5, 6]",
 			" />",
 			"1px solid #DDD",
@@ -799,14 +821,258 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/home/rsi/local_repos/practice/js/jsfk/exercises/canvas/BouncingBall/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 290,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								254,
+								254
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										263,
+										264
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/double_quote.png",
+										"region.greenish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										251,
+										252
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/rsi/local_repos/practice/js/jsfk/exercises/canvas/beeAnimationScript.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1075,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								490,
+								490
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										681,
+										682
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										412,
+										413
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false,
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": false,
+								"indentSize": 2,
+								"tabSize": 2
+							},
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 32.0
+		"height": 30.0
 	},
 	"input":
 	{
@@ -847,7 +1113,7 @@
 	"project": "package.sublime-project",
 	"replace":
 	{
-		"height": 60.0
+		"height": 56.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -870,7 +1136,7 @@
 	},
 	"select_symbol":
 	{
-		"height": 369.0,
+		"height": 392.0,
 		"last_filter": "",
 		"selected_items":
 		[
