@@ -4,6 +4,30 @@
 		"selected_items":
 		[
 			[
+				"set",
+				"setInterval\t( handler: any, timeout?: long, arguments_..: any ): long Window"
+			],
+			[
+				"s",
+				"stroke\twarning"
+			],
+			[
+				"keyA",
+				"keyActions\tlocal var"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
+				"h",
+				"height\twarning"
+			],
+			[
+				"ca",
+				"canvas\tlocal var"
+			],
+			[
 				"y",
 				"ySpeed\tproperty"
 			],
@@ -164,10 +188,6 @@
 				"every\tmethod"
 			],
 			[
-				"s",
-				"splice\tmethod"
-			],
-			[
 				"pla",
 				"playAgainBtn"
 			],
@@ -202,10 +222,6 @@
 			[
 				"wrong",
 				"wrongLetters"
-			],
-			[
-				"set",
-				"setTimeout\t( handler: any, timeout?: long, arguments_..: any ): long Window"
 			],
 			[
 				"class",
@@ -330,10 +346,6 @@
 			[
 				"like",
 				"likeCats"
-			],
-			[
-				"h",
-				"history\tproperty"
 			],
 			[
 				"par",
@@ -502,37 +514,25 @@
 			[
 				"box",
 				"box-sizing\tproperty"
-			],
-			[
-				"pause",
-				"pauseBtn"
-			],
-			[
-				"add",
-				"addEventListener"
-			],
-			[
-				"flex",
-				"flex-grow\tproperty"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "/home/rsi/local_repos/practice/js/jsfk/exercises/canvas/BouncingBall/index.html",
+			"file": "/home/rsi/local_repos/practice/js/jsfk/exercises/snake/index.html",
 			"settings":
 			{
-				"buffer_size": 290,
+				"buffer_size": 439,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/home/rsi/local_repos/practice/js/jsfk/exercises/canvas/beeAnimationScript.js",
+			"file": "/home/rsi/local_repos/practice/js/jsfk/exercises/snake/script.js",
 			"settings":
 			{
-				"buffer_size": 1075,
+				"buffer_size": 330,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -643,25 +643,28 @@
 	"expanded_folders":
 	[
 		"/home/rsi/local_repos/practice/js/jsfk/exercises",
-		"/home/rsi/local_repos/practice/js/jsfk/exercises/canvas",
-		"/home/rsi/local_repos/practice/js/jsfk/exercises/canvas/BouncingBall"
+		"/home/rsi/local_repos/practice/js/jsfk/exercises/DOM",
+		"/home/rsi/local_repos/practice/js/jsfk/exercises/snake"
 	],
 	"file_history":
 	[
-		"/home/rsi/local_repos/practice/js/jsfk/exercises/canvas/BouncingBall/script.js",
-		"/home/rsi/local_repos/practice/js/jsfk/exercises/canvas/script.js",
-		"/home/rsi/local_repos/practice/js/jsfk/exercises/canvas/animationScript1.js",
+		"/home/rsi/local_repos/practice/js/jsfk/exercises/DOM/index.html",
+		"/home/rsi/local_repos/practice/js/jsfk/exercises/canvas/BouncingBall/index.html",
 		"/home/rsi/local_repos/practice/js/jsfk/exercises/canvas/beeanimation.html",
-		"/home/rsi/local_repos/practice/js/jsfk/exercises/canvas/beeAnimationScript.js",
-		"/home/rsi/local_repos/practice/js/jsfk/exercises/canvas/index.html",
 		"/home/rsi/local_repos/practice/js/jsfk/exercises/canvas/canvasanimation.html",
+		"/home/rsi/local_repos/practice/js/jsfk/exercises/canvas/index.html",
+		"/home/rsi/local_repos/practice/js/jsfk/exercises/canvas/script.js",
+		"/home/rsi/local_repos/practice/js/jsfk/exercises/canvas/BouncingBall/script.js",
+		"/home/rsi/local_repos/practice/js/jsfk/exercises/canvas/ControllingAnimationWithKeyboard/index.html",
+		"/home/rsi/local_repos/practice/js/jsfk/exercises/canvas/ControllingAnimationWithKeyboard/script.js",
+		"/home/rsi/local_repos/practice/js/jsfk/exercises/InteractiveProg/index.html",
+		"/home/rsi/local_repos/practice/js/jsfk/exercises/canvas/beeAnimationScript.js",
+		"/home/rsi/local_repos/practice/js/jsfk/exercises/canvas/animationScript1.js",
 		"/home/rsi/local_repos/practice/js/jsfk/exercises/hangman/assets/js/index.js",
 		"/home/rsi/local_repos/practice/js/jsfk/exercises/OOP/index.html",
 		"/home/rsi/local_repos/practice/js/jsfk/exercises/OOP/script.js",
 		"/home/rsi/local_repos/practice/js/jsfk/exercises/find-the-buried-treasure/script.js",
 		"/home/rsi/local_repos/practice/js/jsfk/exercises/find-the-buried-treasure/index.html",
-		"/home/rsi/local_repos/practice/js/jsfk/exercises/InteractiveProg/index.html",
-		"/home/rsi/local_repos/practice/js/jsfk/exercises/DOM/index.html",
 		"/home/rsi/local_repos/practice/js/jsfk/exercises/hangman/index.html",
 		"/home/rsi/local_repos/practice/js/jsfk/exercises/hangman/prompt.html",
 		"/home/rsi/local_repos/practice/js/jsfk/exercises/find-same-array/index.html",
@@ -772,10 +775,7 @@
 		"/home/rsi/local_repos/practice/js/animation/anime/package.json",
 		"/home/rsi/local_repos/practice/misc/canvas/project1/package.json",
 		"/home/rsi/local_repos/practice/js/animation/anime/.gitignore",
-		"/home/rsi/local_repos/practice/js/animation/anime/assets/js/lib/anime.min.js",
-		"/home/rsi/local_repos/practice/js/animation/anime/index.js",
-		"/home/rsi/local_repos/practice/misc/ni/index.html",
-		"/home/rsi/local_repos/practice/react/sportsstore2b/src/ToggleLink.js"
+		"/home/rsi/local_repos/practice/js/animation/anime/assets/js/lib/anime.min.js"
 	],
 	"find":
 	{
@@ -793,6 +793,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"keynames",
 			"x",
 			"100",
 			"90",
@@ -826,50 +827,34 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/home/rsi/local_repos/practice/js/jsfk/exercises/canvas/BouncingBall/index.html",
+					"file": "/home/rsi/local_repos/practice/js/jsfk/exercises/snake/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 290,
+						"buffer_size": 439,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								254,
-								254
+								387,
+								387
 							]
 						],
 						"settings":
 						{
-							"auto_name": "",
 							"bracket_highlighter.busy": false,
 							"bracket_highlighter.locations":
 							{
 								"close":
 								{
-									"1":
-									[
-										263,
-										264
-									]
 								},
 								"icon":
 								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/double_quote.png",
-										"region.greenish"
-									]
 								},
 								"open":
 								{
-									"1":
-									[
-										251,
-										252
-									]
 								},
 								"unmatched":
 								{
@@ -877,56 +862,56 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close",
 								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
 								"bh_curly_close",
 								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
@@ -944,23 +929,24 @@
 				},
 				{
 					"buffer": 1,
-					"file": "/home/rsi/local_repos/practice/js/jsfk/exercises/canvas/beeAnimationScript.js",
+					"file": "/home/rsi/local_repos/practice/js/jsfk/exercises/snake/script.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1075,
+						"buffer_size": 330,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								490,
-								490
+								0,
+								0
 							]
 						],
 						"settings":
 						{
+							"auto_name": "",
 							"bracket_highlighter.busy": false,
 							"bracket_highlighter.locations":
 							{
@@ -968,24 +954,24 @@
 								{
 									"1":
 									[
-										681,
-										682
+										323,
+										324
 									]
 								},
 								"icon":
 								{
 									"1":
 									[
-										"Packages/BracketHighlighter/icons/curly_bracket.png",
-										"region.purplish"
+										"Packages/BracketHighlighter/icons/round_bracket.png",
+										"region.yellowish"
 									]
 								},
 								"open":
 								{
 									"1":
 									[
-										412,
-										413
+										0,
+										1
 									]
 								},
 								"unmatched":
@@ -994,56 +980,56 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close",
 								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
 								"bh_curly_close",
 								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
@@ -1051,7 +1037,6 @@
 								"bh_round_content"
 							],
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false,
 							"typescript_plugin_format_options":
 							{
 								"convertTabsToSpaces": false,

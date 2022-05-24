@@ -111,20 +111,20 @@
 	/* * * * * * * * **
 	 * Random circles *
 	 * * * * * * * * **/
-	// for (var i = 0; i < 10; i++) {
-	// 	var countX = Math.floor(Math.random() * 200);
-	// 	var countY = Math.floor(Math.random() * 200);
-	// 	var countR = Math.floor(Math.random() * 20);
+	for (var i = 0; i < 10; i++) {
+		var countX = Math.floor(Math.random() * 200);
+		var countY = Math.floor(Math.random() * 200);
+		var countR = Math.floor(Math.random() * 20);
 
-	// 	var r = Math.floor(Math.random() * 240);
-	// 	var g = Math.floor(Math.random() * 190);
-	// 	var b = Math.floor(Math.random() * 15);
+		var r = Math.floor(Math.random() * 100);
+		var g = Math.floor(Math.random() * 100);
+		var b = Math.floor(Math.random() * 0);
 
-	// 	ctx.beginPath();
-	// 	ctx.arc(countX, countY, countR, 0, Math.PI * 2, false);
-	// 	ctx.fillStyle = "rgba(" + r + ", " + g + ", " + b + ", 1)";
-	// 	ctx.fill();
-	// }
+		ctx.beginPath();
+		ctx.arc(countX, countY, countR, 0, Math.PI * 2, false);
+		ctx.fillStyle = "rgba(" + r + ", " + g + ", " + b + ", 1)";
+		ctx.fill();
+	}
 
 	/* * * * * * * * * * * *
 	 * Overlapping circles *
@@ -158,25 +158,25 @@
 	/* * * * * *
 	 * Snowman *
 	 * * * * * */
-	var circle = function (x, y, r, fillCircle, fillColor) {
-		ctx.beginPath();
-		ctx.arc(x, y, r, 0, Math.PI * 2, false);
+	// var circle = function (x, y, r, fillCircle, fillColor) {
+	// 	ctx.beginPath();
+	// 	ctx.arc(x, y, r, 0, Math.PI * 2, false);
 
-		if (!fillCircle) {
-			ctx.lineWidth = 4;
-			ctx.stroke();
-		} else {
-			ctx.fillStyle = fillColor;
-			ctx.fill();
-		}
-	};
+	// 	if (!fillCircle) {
+	// 		ctx.lineWidth = 4;
+	// 		ctx.stroke();
+	// 	} else {
+	// 		ctx.fillStyle = fillColor;
+	// 		ctx.fill();
+	// 	}
+	// };
 
-	circle(100, 60, 25, false);
-	circle(90, 50, 5, true)
-	circle(110, 50, 5, true)
-	circle(100, 135, 50, false);
-	circle(100, 115, 5, true)
-	circle(100, 135, 5, true)
-	circle(100, 155, 5, true)
-	circle(100, 60, 5, true, "Orange")
+	// circle(100, 60, 25, false);
+	// circle(90, 50, 5, true)
+	// circle(110, 50, 5, true)
+	// circle(100, 135, 50, false);
+	// circle(100, 115, 5, true)
+	// circle(100, 135, 5, true)
+	// circle(100, 155, 5, true)
+	// circle(100, 60, 5, true, "Orange")
 }) ();

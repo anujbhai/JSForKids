@@ -41,6 +41,16 @@
 		}
 	};
 
+	Ball.prototype.checkCollision = function () {
+		if (this.x < 0 || this.x > width) {
+			this.xSpeed = -this.xSpeed;
+		}
+
+		if (this.y < 0 || this.y > height) {
+			this.ySpeed = -this.ySpeed;
+		}
+	};
+
 	Ball.prototype.draw = function () {
 		circle(this.x, this.y, 10, true);
 	};
@@ -84,6 +94,7 @@
 
 		ball.draw();
 		ball.move();
+		ball.checkCollision();
 
 		ctx.strokeRect(0, 0, width, height);
 	}, 30);
